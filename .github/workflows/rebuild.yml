@@ -2,7 +2,7 @@ name: 🤗空间自动构建
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 20 * * *'
+    - cron: '0 17,5 * * *'
 
 env:
   HF_TOKEN: ${{ secrets.HF_TOKEN }}
